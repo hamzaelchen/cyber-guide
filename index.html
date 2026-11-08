@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CYBER//GUIDE</title>
+  <meta name="description" content="Guide interactif : réseau, HTTP, virtualisation, conteneurs et cloud — chaque concept avec schéma, explication et exemple.">
+  <meta name="theme-color" content="#04070a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2304070a'/%3E%3Cpath d='M7 10l7 6-7 6' fill='none' stroke='%2300ff9c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 23h9' stroke='%2300ff9c' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="scan" aria-hidden="true"></div>
+  <div id="boot" aria-hidden="true"></div>
+
+  <header id="top">
+    <button id="menu" aria-label="Menu">☰</button>
+    <a href="#/" class="brand"><span class="prompt">&gt;_</span> <b id="brand-name">CYBER//GUIDE</b></a>
+    <button id="search-btn" class="search-btn" aria-label="Rechercher"><span>rechercher…</span><kbd>Ctrl K</kbd></button>
+    <div id="progress"><i id="progress-bar"></i></div>
+  </header>
+
+  <aside id="nav" aria-label="Navigation"></aside>
+  <main id="view"></main>
+  <footer id="foot"></footer>
+
+  <script src="assets/js/core.js"></script>
+  <script src="content/config.js"></script>
+  <script src="content/manifest.js"></script>
+  <script src="assets/js/diagrams.js"></script>
+  <script src="assets/js/app.js"></script>
+  <noscript><p style="padding:2rem;color:#0f9">Ce guide nécessite JavaScript.</p></noscript>
+</body>
+</html>
